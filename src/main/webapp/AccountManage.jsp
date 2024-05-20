@@ -48,7 +48,6 @@ else {
 	%>
 
 	
-		
 	<tr>
 	<td class="AccManage">	<%=utente.getLogin()%></td> 
 	<!-- ho cancellato la riga della passoword per non mostrare le password degli utenti nemmeno nella pagina degli amministratori -->
