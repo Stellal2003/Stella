@@ -30,7 +30,7 @@ else {
 <table border="1" style="width:100%">
 		<tr class="head">
 		<th> <a href="AccountManage?Sort=nome_utente">Login</a></th>
-		<th>Password</th>
+		<!-- ho cancellato la riga della passoword per non mostrare le password degli utenti nemmeno nella pagina degli amministratori -->
 		<th> <a href="AccountManage?Sort=nome">Nome</a></th>
 		<th> <a href="AccountManage?Sort=cognome">Cognome</a></th>
 		<th> <a href="AccountManage?Sort=balance DESC">Saldo</a></th>
@@ -50,8 +50,8 @@ else {
 	
 		
 	<tr>
-	<td class="AccManage">	<%=utente.getLogin()%></td>
-	<td class="AccManage">	<%=utente.getPass()%></td>
+	<td class="AccManage">	<%=utente.getLogin()%></td> 
+	<!-- ho cancellato la riga della passoword per non mostrare le password degli utenti nemmeno nella pagina degli amministratori -->
 	<td class="AccManage">	<%=utente.getNome()%></td>
 	<td class="AccManage">	<%=utente.getCognome()%></td>
 	<td class="AccManage">	<%=utente.getQuantity()%></td>
